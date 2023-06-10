@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    background-image: url("images/fondo1.jpg"); 
+    background-image: url("images/fondo9.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,15 +21,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 90%;
     margin: 1.25rem auto;
 }
 
 .cuadro{
-    width: 70%;
-    border: 4px dotted red;
+    width: 90%;
+    border: 3px dotted rgb(139, 58, 194);
     border-radius: 30rem;
-    background-color: aquamarine;
+    background-color: rgb(193, 165, 196);
     text-align: center;
 }
 
@@ -74,5 +74,10 @@ footer{
 .buttons a:hover{
     transform: scale(1.5); 
     background-color: rgba(189, 18, 103, 0.7);
+}
+
+p{
+    color: #fff;
+    text-align: center;
 }
 
