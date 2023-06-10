@@ -38,7 +38,7 @@ body{
     display: block;
     width: 70%;
     height: calc(100vw*30/100);
-    border: 1px solid red;
+    border: 3px solid rgb(237, 229, 229);
     margin: 1.25rem auto;
 }
 
@@ -79,5 +79,15 @@ footer{
 p{
     color: #fff;
     text-align: center;
+}   
+
+.centrar{
+    width: 45%;
+    display: block;
+    margin: 10px auto;
+}
+
+img{
+    width: 100%;
 }
 
